@@ -315,7 +315,61 @@ li {
   }
 
   .box {
-    width: 400px;  
+    width: 400px;
   }
 
 }
+
+@media screen and (max-width: 650px) {
+
+  .header h3{
+    font-size: 12pt;
+  }
+
+  .header h1{
+    font-size: 20pt;
+  }
+
+}
+
+
+  @media screen and (max-width: 500px) {
+    .overlay {
+      height: 1200px;
+    }
+
+    .activities {
+      height: 1600px;
+    }
+
+    .activities header {
+      font-size: 15pt;
+    }
+
+    .flex {
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+    }
+
+    .box {
+      width: 300px;
+    }
+
+    footer {
+      flex-direction: column;
+      height: 125px;
+    }
+
+    footer .copyright{
+      font-size: 11pt;
+    }
+
+    footer .linkz{
+      font-size: 15pt;
+      margin-top: -20px;
+      padding-bottom: 20px; 
+    }
+
+
+  }
