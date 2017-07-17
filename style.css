@@ -270,7 +270,7 @@ li {
 }
 
 
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1400px) {
   .overlay {
     display: inline-flex;
     height: 100%;
@@ -301,4 +301,21 @@ li {
   .overlay {
     height: 900px;
   }
+}
+
+@media screen and (max-width: 900px) {
+  .activities {
+    height: 1600px;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
+
+  .box {
+    width: 400px;  
+  }
+
 }
