@@ -127,7 +127,7 @@ article a:active {
 .activities {
   text-align: center;
   background-color: rgba(83, 133, 193, 0.6);
-  height: 800px;
+  height: 600px;
 }
 
 .activities header {
@@ -151,7 +151,7 @@ article a:active {
   border: solid 1px #dbdbdb;
   margin-bottom: 2em;
   padding: 1.5em;
-  height: 500px;
+  height: 300px;
   margin: auto;
   text-transform: none;
   text-decoration: none;
@@ -181,8 +181,17 @@ article a:active {
 }
 
 .box h3 {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 20pt;
+  color: #FFF;
+}
+
+.activities a {
+  color: #bacee6;
+}
+
+.activities p {
+  margin-top: 10px;
 }
 
 .box.person {
