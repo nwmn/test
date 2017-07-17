@@ -335,11 +335,15 @@ li {
 
   @media screen and (max-width: 500px) {
     .overlay {
-      height: 1200px;
+      height: 900px;
+    }
+
+    .overlay article p {
+      font-size: 10pt;
     }
 
     .activities {
-      height: 1600px;
+      height: 1500px;
     }
 
     .activities header {
@@ -366,9 +370,13 @@ li {
     }
 
     footer .linkz{
-      font-size: 15pt;
+      font-size: 20pt;
       margin-top: -20px;
-      padding-bottom: 20px; 
+      padding-bottom: 20px;
+    }
+
+    .linkz li {
+      padding: 5px;
     }
 
 
